@@ -1,0 +1,71 @@
+<div class="top-container">
+	<div class="rows-container">
+		<div class="header-container">
+			<div class="name-container">
+				<span class="label" data-i18n="name">Name</span>
+				<input type="text" name="attr_character_name">
+				<span class="label" data-i18n="pronouns">Pronouns</span>
+				<input type="text" name="attr_character_pronouns">
+				<span class="label" data-i18n="description">Description</span>
+				<input type="text" name="attr_character_origin">
+				<span class="label" data-i18n="player-name">Player</span>
+				<input type="text" name="attr_character_player">
+			</div>
+		</div>
+
+		<div class="skills-container">
+			<div class="specialty-container">
+				<span class="label" data-i18n="specialty">Specialty</span>
+				<input type="text" name="attr_character_specialty">
+				<span data-i18n="skills" class="label">Skills</span>
+				<fieldset class="repeating-specialty-skills">
+					<div class="specialty-skills">
+						<input type="text" class="specialty-skill" name="attr_specialty_skill_name" />
+						<input type="textarea" class="specialty-skill" name="attr_specialty_skill_description" />
+					</div>
+				</fieldset>
+			</div>
+			<div class="role-container">
+				<span class="label" data-i18n="role">Role</span>
+				<input type="text" name="attr_character_role">
+			</div>
+			<div class="weapon-container">
+				<span class="label" data-i18n="weapon">Weapon</span>
+				<input type="text" name="attr_weapon">
+				<input type="textarea" name="attr_weapon_description">
+			</div>
+		</div>
+
+		<div class="basics-container">
+			<div class="abilities-container">
+				<span class="label" data-i18n="abilities">Ability Scores</span>
+				<input type="number" max="2" min="-1" value="0" name="attr_character_perception">
+				<input type="number" max="2" min="-1" value="0" name="attr_character_intelligence">
+				<input type="number" max="2" min="-1" value="0" name="attr_character_coordination">
+				<input type="number" max="2" min="-1" value="0" name="attr_character_agility">
+				<input type="number" max="2" min="-1" value="0" name="attr_character_conviction">
+			</div>
+			<div class="health-container">
+				<span class="label" data-i18n="health">Health</span>
+				<input type="number" max="5" min="0" value="5" name="attr_character_health_tier1">
+				<input type="number" max="5" min="0" value="5" name="attr_character_health_tier2">
+				<input type="number" max="5" min="0" value="5" name="attr_character_health_tier3">
+			</div>
+			<div class="focus-container">
+				<span class="label" data-i18n="focus">Focus</span>
+				<input type="number" max="12" min="0" value="12" name="attr_character_focus">
+			</div>
+			<div class="tokens-container">
+				<span class="label" data-i18n="tokens">Tokens</span>
+				<span class="label" data-i18n="tokens-advantage">Advantage</span>
+				<input type="number" max="3" min="0" value="0" name="attr_tokens_advantage">
+				<span class="label" data-i18n="tokens-disadvantage">Disadvantage</span>
+				<input type="number" max="3" min="0" value="0" name="attr_tokens_disadvantage">
+				<span class="label" data-i18n="tokens-defense">Defense</span>
+				<input type="number" max="3" min="0" value="0" name="attr_tokens_defense">
+				<span class="label" data-i18n="tokens-exposure">Exposure</span>
+				<input type="number" max="3" min="0" value="0" name="attr_tokens_exposure">
+			</div>
+		</div>
+	</div>
+</div>

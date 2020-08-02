@@ -1,0 +1,18 @@
+{
+    "name": "Name",
+    "pronouns": "Pronouns",
+    "description": "Description",
+    "player-name": "Player",
+    "specialty": "Specialty",
+    "skills": "Skills",
+    "role": "Role",
+    "weapon": "Weapon",
+    "abilities": "Ability Scores",
+    "health": "Health",
+    "focus": "Focus",
+    "tokens": "Tokens",
+    "tokens-advantage": "Advantage",
+    "tokens-disadvantage": "Disadvantage",
+    "tokens-defense": "Defense",
+    "tokens-exposure": "Exposure"
+}
